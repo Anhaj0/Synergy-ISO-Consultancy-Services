@@ -6,7 +6,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Synergy-ISO-Consultancy-Services">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
