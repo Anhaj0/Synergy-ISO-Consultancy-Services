@@ -9,7 +9,7 @@ const Contact = () => {
                     <p>Request a free consultation and quote today.</p>
                 </div>
 
-                <div style={{ maxWidth: '600px', margin: '0 auto', background: 'var(--color-white)', padding: '3rem', borderRadius: '8px', border: '1px solid var(--color-grey-light)', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
+                <div className="contact-card">
                     <form onSubmit={(e) => e.preventDefault()}>
                         <div style={{ marginBottom: '1.5rem' }}>
                             <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '600' }}>Company Name</label>

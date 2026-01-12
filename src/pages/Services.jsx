@@ -20,7 +20,7 @@ const Services = () => {
                         {/* ISO 9001 */}
                         <div className="service-section">
                             <h2>ISO 9001:2015 - Quality Management System</h2>
-                            <div className="service-card" style={{ border: 'none', background: 'var(--color-grey-bg)', padding: '2rem', marginTop: '1rem', display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+                            <div className="service-detail-grid">
                                 <div>
                                     <h4 style={{ color: 'var(--color-accent)' }}>Why you need it</h4>
                                     <p>To standardize operations, improve customer satisfaction, and bid for government/international tenders.</p>
@@ -43,7 +43,7 @@ const Services = () => {
                         {/* ISO 14001 */}
                         <div className="service-section">
                             <h2>ISO 14001:2015 - Environmental Management</h2>
-                            <div className="service-card" style={{ border: 'none', background: 'var(--color-grey-bg)', padding: '2rem', marginTop: '1rem', display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+                            <div className="service-detail-grid">
                                 <div>
                                     <h4 style={{ color: 'var(--color-accent)' }}>Why you need it</h4>
                                     <p>To maximize resource usage, comply with environmental laws, and enhance brand reputation.</p>
@@ -66,7 +66,7 @@ const Services = () => {
                         {/* ISO 45001 */}
                         <div className="service-section">
                             <h2>ISO 45001:2018 - Occupational Health & Safety</h2>
-                            <div className="service-card" style={{ border: 'none', background: 'var(--color-grey-bg)', padding: '2rem', marginTop: '1rem', display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+                            <div className="service-detail-grid">
                                 <div>
                                     <h4 style={{ color: 'var(--color-accent)' }}>Why you need it</h4>
                                     <p>To prevent workplace injuries, legal complications, and ensure employee wellbeing.</p>
